@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/estilo.css" />
+    <link rel="stylesheet" href="/CSS/horario.css" />
+    <title>Barbearia tal</title>
+  </head>
+
+  <body>
+    <header id="cabecalho">
+      <ul id="menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/index.html">Quem somos</a></li>
+        <li><a href="/index.html">Serviços</a></li>
+        <li><a href="/horario.html">Agendamento</a></li>
+      </ul>
+        <img src="/Imagens/logo header.png" />
+    </header>
+    <div>
+      <form method="POST" id="formulario" name="contact" netlify>
+        <fieldset id="form01">
+          <legend>Agendamento</legend>
+          <h6>
+            Nome:<input
+              type="text"
+              name="nNome"
+              id="cNome"
+              size="20"
+              maxlength="30"
+              placeholder="Nome"
+            />
+          </h6>
+          <h6>
+            Sobrenome:<input
+              type="text"
+              name="nSobrenome"
+              id="cSobrenome"
+              size="30"
+              maxlength="30"
+              placeholder="Sobrenome"
+            />
+          </h6>
+          <h6>
+            Horário:<input
+              type="time"
+              name="nHora"
+              id="cHora"
+              size="30"
+              maxlength="40"
+              min="07:00"
+              max="17:00"
+              placeholder="Horário"
+            />
+            <span class="validacao"></span>
+          </h6>
+          <h6>
+            Data:<input
+              type="date"
+              name="nData"
+              id="cData"
+              placeholder="Data"
+              min="2012-09"
+              max="2012-12"
+            />
+            <span class="validacao"></span>
+          </h6>
+          <h6>
+            Telefone:<input
+              type="tel"
+              name="nTelefone"
+              id="cTelefone"
+              placeholder="Telefone"
+            />
+          </h6>
+        </fieldset>
+        <div id="botao">
+        <input type="image" src="/Imagens/botao-enviar.png" name="tBotao">
+      </div>
+      </form>
+    </div>
+    
+    <footer>
+      <h6>Copyright-2022 <br> todos os direitos reservados</h6>
+      <a href="https://pt-br.facebook.com/" target="blanck">
+      <img src="/Imagens/icone facebook.png" >
+
+      <a href="https://www.instagram.com/" target="blanck">
+      <img src="/Imagens/icone insta.png" >
+    </footer>
+  </body>
+</html>
